@@ -31,7 +31,7 @@ app.post('/generate-resume', async (req, res) => {
     </head>
     <body>
         <div class="container">
-            <h1>${firstName} ${lastName}</h1>
+            <h1>Resume</h1>
             <div class="section">
                 <h2>Personal Information</h2>
                 <p><strong>Name:</strong> ${firstName} ${lastName}</p>
